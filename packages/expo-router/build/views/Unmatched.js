@@ -39,7 +39,7 @@ function Unmatched() {
             title: 'Not Found',
         });
     }, [isFocused, isPreloaded, navigation]);
-    return (<react_native_1.View style={styles.container}>
+    return (<react_native_1.View testID="expo-router-unmatched" style={styles.container}>
       <NotFoundAsset />
       <react_native_1.Text role="heading" aria-level={1} style={styles.title}>
         Unmatched Route

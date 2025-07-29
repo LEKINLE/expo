@@ -43,7 +43,7 @@ export function Unmatched() {
   }, [isFocused, isPreloaded, navigation]);
 
   return (
-    <View style={styles.container}>
+    <View testID="expo-router-unmatched" style={styles.container}>
       <NotFoundAsset />
       <Text role="heading" aria-level={1} style={styles.title}>
         Unmatched Route
