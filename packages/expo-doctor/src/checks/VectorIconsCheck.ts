@@ -29,9 +29,7 @@ export class VectorIconsCheck implements DoctorCheck {
       issues,
       advice: issues.length
         ? [
-            `To resolve this, migrate to the scoped icon packages: ${learnMore(
-              'https://expo.fyi/migrating-from-expo-vector-icons'
-            )}`,
+            'To resolve this, migrate to the scoped icon packages using the codemod: `npx @react-native-vector-icons/codemod`',
           ]
         : [],
     };
